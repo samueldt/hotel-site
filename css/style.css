@@ -62,16 +62,22 @@ p {
 
 .bg-light {
     background: #f4f4f4;
-    color: #f7c08a;
+    color: #333;
 }
 
 .bg-primary {
-    background: 
+    background: #f7c08a;
+    color: #333;
+    
 }
 
 .btn:hover {
     background: #f7c08a;
     color: #333;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Navbar */
@@ -162,3 +168,22 @@ p {
 }
 
 
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
